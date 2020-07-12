@@ -1,7 +1,7 @@
 .welcome {
     background: #fff;
     width: 100%;
-    max-height: 550px;
+    max-height: 700px;
     overflow: hidden;
     border-bottom: 1px solid #eee;
 
@@ -14,4 +14,13 @@
             width: 100%;
         }
     }
+
+    .welcome-div {
+        background: url('https://res.cloudinary.com/john-pels/image/upload/v1594568416/DSC_9202.jpg');
+        background-position: 60% 40%;
+        background-size: cover;
+        height: 65vh;
+    }
+
+
 }

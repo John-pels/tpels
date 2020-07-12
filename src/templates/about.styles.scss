@@ -7,13 +7,20 @@
         height: 450px;
 
         .h2 {
-            margin: 6em 0 0;
+            margin: 4em 0 0;
             text-transform: uppercase;
             font-weight: 600;
             font-size: 45px;
             letter-spacing: 1.5px;
             color: #ffffff;
             opacity: 1;
+        }
+
+        .about-caption {
+            letter-spacing: 1.5px;
+            color: #ffffff;
+            text-align: center;
+            font-style: italic;
         }
     }
 

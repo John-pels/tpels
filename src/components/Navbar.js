@@ -1,7 +1,5 @@
 import React from "react";
 import { Link } from "gatsby";
-import github from "../img/github-icon.svg";
-import logo from "../img/logo.svg";
 import "./Navbar.styles.scss";
 
 const Navbar = class extends React.Component {
@@ -50,12 +48,13 @@ const Navbar = class extends React.Component {
                 display: "block",
                 fontWeight: "600",
                 textTransform: "uppercase",
+                color: "#f02424",
               }}
               title="Logo"
               id="nav__item"
             >
               {/* <img src={logo} alt="Kaldi" style={{ width: "88px" }} /> */}
-              <span>Feeling Pressed</span>
+              <span>Kingdom Helps</span>
             </Link>
             {/* Hamburger menu */}
             <div
@@ -73,18 +72,54 @@ const Navbar = class extends React.Component {
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
             <div className="navbar-end has-text-centered">
-              <Link className="navbar-item" to="/about" id="nav__item">
+              <Link className="navbar-item" to="/" id="nav__item" title="Home">
+                Home
+              </Link>
+              <Link
+                className="navbar-item"
+                to="/about"
+                id="nav__item"
+                title="About"
+              >
                 About
               </Link>
 
-              <Link className="navbar-item" to="/blog" id="nav__item">
+              <Link
+                className="navbar-item"
+                to="/blog"
+                id="nav__item"
+                title="Blog"
+              >
                 Blog
               </Link>
-              <Link className="navbar-item" to="/contact" id="nav__item">
-                Contact
+              <Link
+                className="navbar-item"
+                to="/team"
+                id="nav__item"
+                title="Seminars"
+              >
+                Seminars
               </Link>
-              <Link className="navbar-item" to="/team" id="nav__item">
+
+              {/* <Link className="navbar-item" to="/team" id="nav__item">
                 Our Team
+              </Link> */}
+              <Link
+                className="navbar-item"
+                to="/team"
+                id="nav__item"
+                title="Gallery"
+              >
+                Gallery
+              </Link>
+
+              <Link
+                className="navbar-item"
+                to="/contact"
+                id="nav__item"
+                title="Contact"
+              >
+                Contact
               </Link>
             </div>
           </div>

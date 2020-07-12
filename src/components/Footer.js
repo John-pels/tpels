@@ -1,37 +1,34 @@
 import React from "react";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import {
-//   faFacebookF,
-//   faTwitter,
-//   faInstagram
-// } from "@fortawesome/free-brands-svg-icons";
-// import { faChevronRight, faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import { Link } from "gatsby"
+
 import "./footer.styles.scss";
 
 const Footer = () => (
   <footer className="footer">
     <div className="container">
-      <h1 className="footer__brand text-center">Feeling Pressed</h1>
+      <h1 className="footer__brand text-center">Kingdom Helps</h1>
 
-      <div className="row footer__row">
+      {/* <div className="row footer__row">
         <div className="col-lg-8 offset-lg-2 col-sm-12">
-          <p className="footer- text-center">
-            Quick Links
-          </p>
+          <p className="footer- text-center">Quick Links</p>
           <ul className="text-center mb-3 footer__quickLinks">
             <li>
-              <Link to="/about" className="links">ABOUT</Link>
+              <Link to="/about" className="links">
+                ABOUT
+              </Link>
             </li>
             <li>
-              <Link to="/blog" className="links">BLOG</Link>
+              <Link to="/blog" className="links">
+                BLOG
+              </Link>
             </li>
             <li>
-              <Link to="/contact" className="links">CONTACT</Link>
+              <Link to="/contact" className="links">
+                CONTACT
+              </Link>
             </li>
           </ul>
         </div>
-      </div>
+      </div> */}
       <div className="row">
         <div className="col-lg-6 offset-lg-3 col-sm-12">
           {/* <section className="footer__form-wrap">
@@ -56,31 +53,43 @@ const Footer = () => (
       <div className="row">
         <div className="col-lg-6 offset-lg-3 col-sm-12">
           <section className="social-media">
-            <a href="#" target="_blank">
-            <div className="media-handles mt">
-              <i className="fa fa-facebook-f icon facebook">  </i>
-            </div>
+            <a
+              href="https://www.facebook.com/KINGDOMHELPS01"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="media-handles mt">
+                <i className="fa fa-facebook-f icon facebook"> </i>
+              </div>
             </a>
-            <a href="https://twitter.com/feelpressed" target="_blank">
-            <div className="media-handles mt">
-              <i className="fa fa-twitter icon twitter">  </i>
-            </div>
+            <a
+              href="https://twitter.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="media-handles mt">
+                <i className="fa fa-twitter icon twitter"> </i>
+              </div>
             </a>
-            <a href="https://twitter.com/feelpressed" target="_blank">
-            <div className="media-handles mt">
-              <i className="fa fa-envelope icon envelope">  </i>
-            </div>
+            <a
+              href="mailto:kingdomhelpsmovement@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="media-handles mt">
+                <i className="fa fa-envelope icon envelope"> </i>
+              </div>
             </a>
-            <a href="#" target="_blank">
-            <div className="media-handles">
-              <i className="fa fa-instagram icon instagram">  </i>
-            </div>
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <div className="media-handles">
+                <i className="fa fa-instagram icon instagram"> </i>
+              </div>
             </a>
           </section>
         </div>
       </div>
       <p className="copyright text-center">
-        2020 Copyright &copy; Feeling Pressed International
+        {new Date().getFullYear()} Copyright &copy; Kingdom Helps Movement
       </p>
     </div>
   </footer>

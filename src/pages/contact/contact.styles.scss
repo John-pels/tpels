@@ -209,10 +209,12 @@
           height: 60px;
           line-height: 60px;
           background: #ffc55c 0% 0% no-repeat padding-box;
+          cursor: pointer;
           border-radius: 41px;
           opacity: 1;
           border: none;
           color: #000;
+          outline: none;
           font-weight: 600;
           transition: all 0.5s ease-in-out;
 

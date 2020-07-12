@@ -7,17 +7,17 @@ export default function Mission() {
     <div className="mission">
       <div className="container">
         <div className="">
-          <h3> Why Feeling Pressed? </h3>
+          <h3> Why Kingdom Helps? </h3>
         </div>
         <div className="row">
           <div className="col-lg-4 col-sm-12 no-gutters">
             <div className="mission-card" id="card-1">
               <header>
-                <span className="cube"></span>Purpose
+                <span className="cube"></span>Our Purpose
               </header>
               <article>
-                To inspire believers of Jesus, to walk a closer and exciting
-                Journey with Christ.
+                To save the lost and connect the hearts of the daughters to the
+                Father. Also to run and deliver God's burden per season.
               </article>
               <Link to="/about">
                 {" "}
@@ -31,7 +31,8 @@ export default function Mission() {
                 <span className="cube"></span>Mission
               </header>
               <article>
-                To reveal to seekers on how they can begin a Journey with Jesus Christ
+                Sent to the saved that are lost. To become the best help for
+                God's kingdom at such a time as this!
               </article>{" "}
               <br />
               <Link to="/about">
@@ -46,7 +47,8 @@ export default function Mission() {
                 <span className="cube"></span>Values
               </header>
               <article>
-                To provide resources for Jesus' followers so that they can grow.
+                Help is our calling Holiness, Righteousness and Purity. Ready to
+                help till our last breath.
               </article>{" "}
               <br />
               <Link to="/about">
