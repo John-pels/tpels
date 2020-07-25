@@ -9,6 +9,6 @@ featuredimage: /img/depositphotos_25724437-stock-photo-sad-woman-crying-next-to.
 tags:
   - Instagram Facebook Whatsapp
 ---
-![My Accounts](/img/depositphotos_25724437-stock-photo-sad-woman-crying-next-to.jpg "WHAT HAPPENS TO YOUR ACCOUNT AFTER YOUR DEMISE?")
+![](/img/depositphotos_25724437-stock-photo-sad-woman-crying-next-to.jpg "WHAT HAPPENS TO YOUR ACCOUNT AFTER YOUR DEMISE?")
 
 Big sis asked ''What happens to your account after your demise? I beg your pardon sis! What kind of question is that? I replied sharply. She said calm down Tofunmi! Facebook asks such a question while having an account with them
