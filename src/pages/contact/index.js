@@ -115,7 +115,6 @@ export default class Index extends React.Component {
                   <div className="col-lg-6 col-sm-12">
                     <div className="left-col">
                       <form
-                        action=""
                         className="contact-form"
                         name="contact"
                         method="post"
@@ -147,11 +146,7 @@ export default class Index extends React.Component {
                           id={"name"}
                           required={true}
                         />
-                        {/* <input
-                    type="text"
-                    placeholder="Last Name"
-                    className="form-input"
-                  /> */}
+
                         <input
                           placeholder="Email"
                           className="form-input"

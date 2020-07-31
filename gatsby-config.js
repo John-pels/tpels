@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: "Kingdom Helps",
     description:
-      "SAVED TO SAVE OTHERS AND CONNECTING THE HEARTS OF DAUGHTERS TO THE   FATHER",
+      "SAVED TO SAVE OTHERS AND CONNECTING THE HEARTS OF DAUGHTERS TO THE  FATHER",
   },
   plugins: [
     "gatsby-plugin-react-helmet",
