@@ -1,4 +1,4 @@
-export const imageData = [
+const imageData = [
   {
     id: 1,
     caption: "Kingdoms first Physical Conference in 2017",
@@ -78,3 +78,4 @@ export const imageData = [
       "https://res.cloudinary.com/grace-pels-photography/image/upload/v1598100838/KH%20GALLERY/CHARITY%20OUTREACH%202018/6_ryrk87.jpg",
   },
 ];
+export default imageData;

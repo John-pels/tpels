@@ -1,7 +1,7 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { imageData } from "./imageData";
+import imageData from "./imageData";
 
 const DRIVE_URL =
   "https://drive.google.com/drive/folders/1JzxcjGaKBpPj1lCH59BFgUWG2hZNkvLj?usp=sharing";
@@ -12,7 +12,11 @@ const SliderComponents = () => {
         <Carousel interval={3000}>
           {imageData.map((image) => (
             <Carousel.Item key={image.id}>
-              <img src={image.imgUrl} alt="gallery" style={{ width: "100%" }} />
+              <img
+                src={image.imgUrl}
+                alt="gallery"
+                style={{ width: "100%", height: "30%" }}
+              />
               <Carousel.Caption>
                 <p style={{ color: "#0597F2", fontWeight: 600 }}>
                   {image.caption}
